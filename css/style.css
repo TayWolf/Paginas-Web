@@ -158,8 +158,8 @@
 		margin-top:18px;
 	}
 	.socialicons li {
-		float:left;
-		display:inline;
+		display: flex;
+  		justify-content: space-between;
 		margin:0;
 		padding:0;
 		margin-right:2px;
@@ -303,7 +303,6 @@
 
 	.tabs li > a > i {
 		font-size: 45px;
-		speak: none;
 		font-family: 'icomoon';
 		display: block;
 		margin-bottom: 5px;
