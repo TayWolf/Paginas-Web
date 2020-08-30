@@ -226,7 +226,7 @@
 	.about p {
 		font-size:14px;
 		margin-top:15px;
-		color:/*profileTextColor*/#a87f09;
+		color:/*profileTextColor*/#FFF;
 		font-weight: 400;
 		line-height:20px;
 	}
@@ -246,7 +246,7 @@
 		overflow: hidden;
 	}
 	.personal-info li label {
-		color:/*profileTextColor*/#a87f09;
+		color:/*profileTextColor*/#FFF;
 		float:left;
 		padding:4px 7px;
 		font-weight:600;
@@ -259,7 +259,7 @@
 		width:220px;
 		padding-top: 4px;
 		font-weight: 300;
-		color:/*profileTextColor*/#a87f09;
+		color:/*profileTextColor*/#FFF;
 	}
 	/*-------------------------------------------------------*/
 		/* Menu */
