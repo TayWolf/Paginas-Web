@@ -5,7 +5,7 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 
 	// Logo
-	var $logo 	= $('#logo');
+	const $logo = $('#logo');
 
     if (location.href.indexOf("#") != -1) {
         $logo.show();
@@ -27,7 +27,7 @@ jQuery(document).ready(function(){
 	$(".skills li .rating").each(function(index,e) { 
 
 		// Vars
-		var 
+		const 
 			$ratNum = 7,
 			$rat = $(e).attr("data-rat"),
 			$point = "<span></span>";
@@ -76,7 +76,7 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	
 	// Needed variables
-	var $content 		= $("#content");
+	const $content = $("#content");
 	
 	// Run easytabs
   	$content.easytabs({
@@ -135,7 +135,7 @@ jQuery(document).ready(function(){
 	/*	Cats Filter
 	/* ---------------------------------------------------------------------- */ 
 	
-	var $catsfilter 		= $('.cats-filter');
+	const $catsfilter = $('.cats-filter');
 
 	// Copy categories to item classes
 	$catsfilter.find('a').click(function() {
@@ -149,8 +149,8 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */ 
 	
 	// Needed variables
-	var $plist	 	= $('#portfolio-list');
-	var $pfilter 		= $('#portfolio-filter');
+	const $plist = $('#portfolio-list');
+	const $pfilter = $('#portfolio-filter');
 		
 	// Run Isotope  
 	$plist.isotope({
@@ -200,8 +200,8 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	
 	// Needed variables
-	var $contactform 	= $('#contactform'),
-		$success		= 'Your message has been sent. Thank you!';
+	let $contactform = $('#contactform'),
+		$success	 = 'Your message has been sent. Thank you!';
 		
 	$contactform.submit(function(){
 		$.ajax({
@@ -229,7 +229,7 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	
 	// Needed variables
-	var $map 				= $('#map'),
+	const $map 				= $('#map'),
 		$tabContactClass 	= ('tab-contact'),
 		$lat 				= '-37.81759',
 		$lon 				= '144.964557';
@@ -245,8 +245,4 @@ jQuery(document).ready(function(){
 	$content.bind('easytabs:after', function(evt,tab,panel) {
 		$map.gmap('refresh'); 
   	});
-
-      
-  
-
 });	
