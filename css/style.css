@@ -959,6 +959,7 @@
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	#container {
 		width:100%;
+		overflow-x: hidden;
 	}
 
 	/*-------------------------------------------------------*/
@@ -1046,6 +1047,7 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#container {
 		width:100%;
+		overflow-x: hidden;
 	}
 	/*-------------------------------------------------------*/
 		/* Top Section */
@@ -1169,6 +1171,7 @@
 	#container {
 		width:100%;
 		margin-top:10px;
+		overflow-x: hidden;
 	}
 	.extra-text {
 		font-size:1rem;
@@ -1351,6 +1354,7 @@
 	.tabs li.active {
 		background:url('../images/tab-hover@2x.png') no-repeat;
 		background-size: 116px 114px;
+		overflow-x: hidden;
 	}
 
 }
