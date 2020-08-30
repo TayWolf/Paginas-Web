@@ -207,9 +207,11 @@
 		width:192px;
 		height:212px;
 		padding:12px 0 0 20px;
+		cursor: pointer;
 	}
 	.about .photo-inner img {
 		background-color:#FFF;
+		cursor: pointer;
 	}
 	.about h1 {
 		font-weight:900;
